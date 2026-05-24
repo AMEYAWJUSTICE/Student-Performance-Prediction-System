@@ -4,7 +4,7 @@ import joblib
 import numpy as np
 
 # Load the trained Logistic Regression model
-logistic_model = joblib.load('logistic_regression_model.joblib')
+logistic_model = joblib.load('performance_logistic_regression_model.joblib')
 
 # Define the exact columns the model was trained on
 # This list is crucial to ensure the input data matches the model's expectations
